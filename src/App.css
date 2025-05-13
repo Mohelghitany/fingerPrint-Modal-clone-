@@ -17,11 +17,6 @@ body, html {
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
 .App-header {
   background-color: #282c34;
@@ -38,16 +33,6 @@ body, html {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-/* --- Spotter Section Styles --- */
 .spotter-section {
   min-height: 100vh;
   background: #fafbfc;
@@ -150,7 +135,6 @@ body, html {
   font-family: 'Inter', Arial, sans-serif;
 }
 
-/* SVG Graph axis ticks */
 .main-graph.refined line.axis-tick {
   stroke: #e5e7eb;
   stroke-width: 1;
@@ -191,7 +175,6 @@ body, html {
   font-family: 'Inter', Arial, sans-serif;
 }
 
-/* Faint dot grid background pattern for right side */
 .feature-bg-pattern {
   position: absolute;
   right: 0;
@@ -240,7 +223,6 @@ body, html {
   }
 }
 
-/* --- Spotter Header Styles --- */
 .spotter-header {
   width: 100%;
   height: 64px;
@@ -339,7 +321,7 @@ body, html {
   background: #2563eb;
 }
 
-/* --- Custom Header Styles for Fingerprint --- */
+
 .spotter-header.exact-match {
   width: 100%;
   height: 56px;
@@ -755,7 +737,7 @@ body, html {
   height: inherit;
 }
 
-/* Graph/Accent */
+
 polyline[stroke="#FF6A2B"] {
   stroke: #7B61FF !important;
 }
@@ -763,7 +745,7 @@ polyline[stroke="#7B61FF"] {
   stroke: #4F8CFF !important;
 }
 
-/* Text */
+
 .subheadline.refined,
 .feature-desc.refined,
 .feature-card-desc,

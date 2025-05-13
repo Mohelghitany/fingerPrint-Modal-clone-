@@ -32,7 +32,7 @@ function App() {
           <button className="header-btn get-started exact-match">Get Started</button>
         </div>
       </header>
-      {/* Main Section */}
+      
       <main className="spotter-section">
         <div className="main-feature-row">
           <MainFeatureCard />
